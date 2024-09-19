@@ -1,3 +1,5 @@
+package ejercicio2;
+
 import java.util.Scanner;
 
 //EjercicioDos
@@ -48,6 +50,6 @@ class Main {
         System.out.println("NUM6: " + Datos.NUM6);
 
         // Intentar modificar una variable estática y final (esto dará un error)
-        //Datos.NUM1 = 10; // Esto provocará un error de compilación, ya que NUM1 es final. Da error: java: cannot assign a value to static final variable NUM1
+        //ejercicio2.Datos.NUM1 = 10; // Esto provocará un error de compilación, ya que NUM1 es final. Da error: java: cannot assign a value to static final variable NUM1
     }
 }
